@@ -1,33 +1,23 @@
 ﻿// .dll -> DLL = dynamic link library
+// ctrl + R + R to rename a variable
 
-Console.WriteLine("Hello!");
-Console.WriteLine("[S]ee all TODOs!");
-Console.WriteLine("[A]dd a TODO");
-Console.WriteLine("[R]remove a TODO");
-Console.WriteLine("[E]xit");
+int a = 4;
+int b = 10;
+++a;
+++b;
 
+Console.WriteLine("Addition: " + (a + b));
+Console.WriteLine("Subtraction: " + (a - b));
+Console.WriteLine("Multiplication: " + a * b);
+Console.WriteLine("Division: " + a / b);
+Console.WriteLine("John" + " "+ "Smith");
 
-string userInput = "A";
+string word = "lol";
+Console.WriteLine(word + a);
+Console.WriteLine(a % b);
+Console.WriteLine(a == b);
+Console.WriteLine(a != b);
 
-Console.WriteLine(userInput);
-
-userInput = "ABC";
-Console.WriteLine(userInput);
-
-int number; // declaration
-number = 123; // initialization
-
-
-Console.WriteLine(number);
-number = 69;
-Console.WriteLine(number);
-
-// multiple declaration
-string name, lastName;
-// multiple declaration & initialization
-int num1 = 2, num2 = 7;
-
-string
 
 
 Console.ReadKey();

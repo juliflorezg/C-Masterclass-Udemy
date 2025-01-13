@@ -1,11 +1,20 @@
 ﻿// .dll -> DLL = dynamic link library
-// ctrl + R + R to rename a variable
+// ctrl + R + R -> rename a variable
 
-// implicitly typed variables
-var word = "lol";
-var num = 0;
+// alt + drag with the mouse -> select multiple lines
 
-// explicitly typed variables
-string word1 = "lololol";
-int num1 = 1;
-Console.ReadKey();
+Console.WriteLine("Hello!");
+Console.WriteLine("[S]ee all TODOs!");
+Console.WriteLine("[A]dd a TODO");
+Console.WriteLine("[R]remove a TODO");
+Console.WriteLine("[E]xit");
+
+string userChoice = Console.ReadLine();
+Console.WriteLine("User input: " + userChoice);
+
+userChoice = "AEIOU";
+    
+var result = "abc" + "def" + "ghi";
+
+
+Console.ReadKey(); 

@@ -19,6 +19,11 @@ if (userChoice?.Length  == 0)
     Console.WriteLine("empty choice");
     int number = 3;
     Console.WriteLine(number);
+    if (number == 3)
+    {
+        //int number = 5; // not valid, there's already a variable 'number' in an outside scope
+        Console.WriteLine(number);
+    }
 } else
 {
     Console.WriteLine("non-empy value");

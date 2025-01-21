@@ -31,7 +31,7 @@ if (userChoice == "S")
 
 void PrintSelectedOption(string selectedOption) // parameteres
 {
-    Console.WriteLine(selectedOption);
+    Console.WriteLine("selected option:" + selectedOption);
 }
 
 

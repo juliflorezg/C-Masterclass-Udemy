@@ -13,23 +13,26 @@ string userChoice = Console.ReadLine();
 Console.WriteLine("User input: " + userChoice);
 
 //userChoice = "AEIOU";
-    
-if (userChoice?.Length  == 0)
-{
-    Console.WriteLine("empty choice");
-    int number = 3;
-    Console.WriteLine(number);
-    if (number == 3)
-    {
-        //int number = 5; // not valid, there's already a variable 'number' in an outside scope
-        Console.WriteLine(number);
-    }
-} else
-{
-    Console.WriteLine("non-empy value");
-    //Console.WriteLine(number); //! not valid, number variables is not present in this scope
 
+if (userChoice == "S")
+{
+    PrintSelectedOption("See all TODOs"); // arguments
+} else if (userChoice == "A")
+{ 
+    PrintSelectedOption("Add a TODO");
+} else if (userChoice == "R")
+{ 
+    PrintSelectedOption("Remove a TODO");
+} else if (userChoice == "E")
+{ 
+    PrintSelectedOption("Exit");
 }
 
 
-Console.ReadKey(); 
+void PrintSelectedOption(string selectedOption) // parameteres
+{
+    Console.WriteLine(selectedOption);
+}
+
+
+Console.ReadKey();  

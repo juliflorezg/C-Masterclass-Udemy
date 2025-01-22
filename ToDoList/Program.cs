@@ -23,6 +23,9 @@ bool IsStringLong(string input)
     return input.Length > 10;
 }
 
+Console.WriteLine("abs sum:" + AbsoluteSum(10, 5));
+Console.WriteLine("abs sum: {0}", AbsoluteSum(-10, 5));
+
 //userChoice = "AEIOU";
 
 if (userChoice == "S")
@@ -50,5 +53,10 @@ int Add(int a, int b)
     return a + b;
 }
 
+int AbsoluteSum(int a, int b)
+{
+    return Math.Abs(a + b);
+}
 
-Console.ReadKey()
+
+Console.ReadKey();

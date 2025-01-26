@@ -3,21 +3,21 @@
 
 // alt + drag with the mouse -> select multiple lines
 
-Console.WriteLine("please provide a number");
+//Console.WriteLine("please provide a number");
 
-string input = Console.ReadLine();
-int number = int.Parse(input);
-Console.ReadKey();
+//string input = Console.ReadLine();
+//int number = int.Parse(input);
+//Console.ReadKey();
 
 
-//Console.WriteLine("Hello!");
-//Console.WriteLine("[S]ee all TODOs!");
-//Console.WriteLine("[A]dd a TODO");
-//Console.WriteLine("[R]remove a TODO");
-//Console.WriteLine("[E]xit");
+Console.WriteLine("Hello!");
+Console.WriteLine("[S]ee all TODOs!");
+Console.WriteLine("[A]dd a TODO");
+Console.WriteLine("[R]remove a TODO");
+Console.WriteLine("[E]xit");
 
-//string userChoice = Console.ReadLine();
-//Console.WriteLine("User input: " + userChoice);
+string userChoice = Console.ReadLine();
+Console.WriteLine("User input: " + userChoice);
 
 //var result = Add(10, 5);
 //Console.WriteLine("10 + 5 => " + result);
@@ -33,26 +33,52 @@ Console.ReadKey();
 //Console.WriteLine("abs sum: {0}", AbsoluteSum(-10, 5));
 
 ////userChoice = "AEIOU";
+///
+switch (userChoice)
+{
+    case "s":
+    case "S":
+        PrintSelectedOption("See all TODOs"); // arguments
+        break;
+    case "a":
+    case "A":
+        PrintSelectedOption("Add a TODO");
+        break;
+    case "r":
+    case "R":
+        PrintSelectedOption("Remove a TODO");
+        break;
+    case "e":
+    case "E":
+        PrintSelectedOption("Exit");
+        break;
+    default:
+        Console.WriteLine("Invalid Choice");
+        break;
+}
 
 //if (userChoice == "S")
 //{
 //    PrintSelectedOption("See all TODOs"); // arguments
-//} else if (userChoice == "A")
-//{ 
+//}
+//else if (userChoice == "A")
+//{
 //    PrintSelectedOption("Add a TODO");
-//} else if (userChoice == "R")
-//{ 
+//}
+//else if (userChoice == "R")
+//{
 //    PrintSelectedOption("Remove a TODO");
-//} else if (userChoice == "E")
-//{ 
+//}
+//else if (userChoice == "E")
+//{
 //    PrintSelectedOption("Exit");
 //}
 
 
-//void PrintSelectedOption(string selectedOption) // parameteres
-//{
-//    Console.WriteLine("selected option:" + selectedOption);
-//}
+void PrintSelectedOption(string selectedOption) // parameteres
+{
+    Console.WriteLine("selected option:" + selectedOption);
+}
 
 //int Add(int a, int b)
 //{
@@ -65,4 +91,4 @@ Console.ReadKey();
 //}
 
 
-//Console.ReadKey();
+Console.ReadKey();

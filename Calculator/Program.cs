@@ -27,7 +27,7 @@ if (operationChosen != "A" && operationChosen != "a" && operationChosen != "S" &
 
 int result;
 
-if (operationChosen == "A" || operationChosen == "a")
+if (EqualsCaseInsensitive(operationChosen, "A"))
 {
     result = number1 + number2;
     Console.WriteLine("{0} + {1} = {2}", number1, number2, result);
@@ -36,7 +36,7 @@ if (operationChosen == "A" || operationChosen == "a")
     return;
 
 }
-else if (operationChosen == "S" || operationChosen == "s")
+else if (EqualsCaseInsensitive(operationChosen, "S"))
 {
     result = number1 - number2;
     Console.WriteLine("{0} - {1} = {2}", number1, number2, result);
@@ -45,7 +45,7 @@ else if (operationChosen == "S" || operationChosen == "s")
     return;
 
 }
-else if (operationChosen == "M" || operationChosen == "m")
+else if (EqualsCaseInsensitive(operationChosen, "M"))
 {
     result = number1 * number2;
     Console.WriteLine("{0} * {1} = {2}", number1, number2, result);
@@ -56,3 +56,9 @@ else if (operationChosen == "M" || operationChosen == "m")
 }
 
 Console.ReadKey();
+
+bool EqualsCaseInsensitive(string s1, string s2)
+{
+    //return s1.ToUpper().Equals(s2.ToUpper());
+    return s1.ToUpper() == s2.ToUpper();
+}

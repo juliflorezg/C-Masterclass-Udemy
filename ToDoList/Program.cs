@@ -74,6 +74,15 @@ switch (userChoice)
 //    PrintSelectedOption("Exit");
 //}
 
+var number = 0;
+
+while (number < 10)
+{
+
+    Console.WriteLine($"NUMBER IS {number}");
+    number = number + 1;
+}
+
 
 void PrintSelectedOption(string selectedOption) // parameteres
 {
@@ -89,6 +98,7 @@ void PrintSelectedOption(string selectedOption) // parameteres
 //{
 //    return Math.Abs(a + b);
 //}
+
 
 
 Console.ReadKey();

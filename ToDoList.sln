@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{80D34477-6856-4BB6-BEBC-DB7B92196E44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateSumOfNumbersBetween", "CalculateSumOfNumbersBetween\CalculateSumOfNumbersBetween.csproj", "{1AD8303F-54D3-45AE-94A5-12B8158C9843}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{80D34477-6856-4BB6-BEBC-DB7B92196E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D34477-6856-4BB6-BEBC-DB7B92196E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D34477-6856-4BB6-BEBC-DB7B92196E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD8303F-54D3-45AE-94A5-12B8158C9843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD8303F-54D3-45AE-94A5-12B8158C9843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD8303F-54D3-45AE-94A5-12B8158C9843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD8303F-54D3-45AE-94A5-12B8158C9843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

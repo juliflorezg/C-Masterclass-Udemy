@@ -80,7 +80,9 @@ while (number < 10)
 {
 
     Console.WriteLine($"NUMBER IS {number}");
-    number = number + 1;
+    //number = number + 1;
+    //number += 1;
+    number++;
 }
 
 

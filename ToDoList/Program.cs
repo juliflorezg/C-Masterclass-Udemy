@@ -85,6 +85,11 @@ while (number < 10)
     number++;
 }
 
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine($"hello from the loop {i}");
+}
+
 
 void PrintSelectedOption(string selectedOption) // parameteres
 {

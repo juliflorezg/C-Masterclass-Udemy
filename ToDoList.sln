@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildHelloString", "BuildHe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsWordPresentInCollection", "IsWordPresentInCollection\IsWordPresentInCollection.csproj", "{21348415-F50F-423C-8942-DC20E8CE8F4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMax", "FindMax\FindMax.csproj", "{E6EAEAC7-1D62-4E12-94D6-32819DEC93F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{21348415-F50F-423C-8942-DC20E8CE8F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21348415-F50F-423C-8942-DC20E8CE8F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21348415-F50F-423C-8942-DC20E8CE8F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6EAEAC7-1D62-4E12-94D6-32819DEC93F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EAEAC7-1D62-4E12-94D6-32819DEC93F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EAEAC7-1D62-4E12-94D6-32819DEC93F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EAEAC7-1D62-4E12-94D6-32819DEC93F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

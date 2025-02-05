@@ -141,5 +141,39 @@ void PrintSelectedOption(string selectedOption) // parameteres
 //}
 
 
+// Multi-dimensional arrays
 
-Console.ReadKey();
+char[,] letters = new char[2, 3];
+
+letters[0, 0] = 'a';
+letters[0, 1] = 'b';
+letters[0, 2] = 'c';
+letters[1, 0] = 'd';
+letters[1, 1] = 'e';
+letters[1, 2] = 'f';
+
+// declaring the values on array definition
+
+var letters2 = new char[,]
+{
+    {'A', 'B', 'C' },
+    {'D', 'E', 'F' },
+};
+
+// looping into an multi-dimensional array 
+var height = letters.GetLength(0); // get first dimension
+var width = letters.GetLength(1); // get second dimension
+
+for (int i = 0; i < height; i++)
+{
+    Console.WriteLine($"First Dimension: {i}");
+    for (int j = 0; j < width; j++)
+    {
+        Console.WriteLine($"Second Dimension: {j}");
+        Console.WriteLine($"Position: {i},{j} | Element: {letters[i, j]}");
+
+    }
+}
+
+
+    Console.ReadKey();

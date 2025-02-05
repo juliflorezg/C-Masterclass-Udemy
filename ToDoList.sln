@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatCharacter", "RepeatCh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{89033527-8B9F-4EA9-A9AA-CE77ED81CB51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildHelloString", "BuildHelloString\BuildHelloString.csproj", "{C668D628-0136-41C7-9750-A16E4BA49179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsWordPresentInCollection", "IsWordPresentInCollection\IsWordPresentInCollection.csproj", "{21348415-F50F-423C-8942-DC20E8CE8F4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{89033527-8B9F-4EA9-A9AA-CE77ED81CB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89033527-8B9F-4EA9-A9AA-CE77ED81CB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89033527-8B9F-4EA9-A9AA-CE77ED81CB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C668D628-0136-41C7-9750-A16E4BA49179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C668D628-0136-41C7-9750-A16E4BA49179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C668D628-0136-41C7-9750-A16E4BA49179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C668D628-0136-41C7-9750-A16E4BA49179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21348415-F50F-423C-8942-DC20E8CE8F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21348415-F50F-423C-8942-DC20E8CE8F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21348415-F50F-423C-8942-DC20E8CE8F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21348415-F50F-423C-8942-DC20E8CE8F4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

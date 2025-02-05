@@ -74,22 +74,56 @@ switch (userChoice)
 //    PrintSelectedOption("Exit");
 //}
 
-var number = 0;
+//var number = 0;
 
-while (number < 10)
+//while (number < 10)
+//{
+
+//    Console.WriteLine($"NUMBER IS {number}");
+//    //number = number + 1;
+//    //number += 1;
+//    number++;
+//}
+
+//for (int i = 0; i < 5; i++)
+//{
+//    Console.WriteLine($"hello from the loop {i}");
+//}
+
+
+
+// ARRAYS 
+
+int[] numbers = new int[3]; // array of size 3
+
+Console.WriteLine($"element at 0 position: {numbers[0]}");
+Console.WriteLine($"element at 1 position: {numbers[1]}");
+Console.WriteLine($"element at 2 position: {numbers[2]}");
+
+Console.WriteLine("");
+
+// to get the elements from the end use the ^ symbol:::
+//int[] numbers1 = new int[5];
+//numbers1[0] = 1;
+//numbers1[1] = 3;
+//numbers1[2] = 5;
+//numbers1[3] = 7;
+//numbers1[4] = 9;
+
+//int[] numbers1 = new int[] {1, 3, 5, 7, 9};
+int[] numbers1 = [1, 3, 5, 7, 9];
+
+Console.WriteLine($"first element from the end: {numbers1[^1]}");
+Console.WriteLine($"second element from the end: {numbers1[^2]}");
+
+var sum = 0;
+for (int i = 0; i < numbers1.Length; i++)
 {
-
-    Console.WriteLine($"NUMBER IS {number}");
-    //number = number + 1;
-    //number += 1;
-    number++;
+    Console.WriteLine(numbers1[i]);
+    sum += numbers1[i];
 }
 
-for (int i = 0; i < 5; i++)
-{
-    Console.WriteLine($"hello from the loop {i}");
-}
-
+Console.WriteLine($"sum is: {sum}");
 
 void PrintSelectedOption(string selectedOption) // parameteres
 {

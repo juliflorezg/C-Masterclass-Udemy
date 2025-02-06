@@ -176,4 +176,22 @@ for (int i = 0; i < height; i++)
 }
 
 
+// FOR-EACH LOOP
+
+//string[] words = new string[] { "one", "two", "three", "four" };
+string[] words = ["one", "two", "three", "four"];
+
+//for (int i = 0;i < words.Length; i++)
+//{
+//    Console.WriteLine(words[i] );
+//}
+
+foreach( string word in words)
+{
+    Console.WriteLine(word);
+}
+
+
+
+
     Console.ReadKey();

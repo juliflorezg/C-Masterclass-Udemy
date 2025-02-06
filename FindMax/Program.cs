@@ -16,7 +16,7 @@ for an array like this, the result should be 12
  
  */
 
-int[,] numbers = new int[,] {
+int[,] numbers = new int[,] {  
     { 3, 5 },
     { -1, 12 },
     { 4, 0 }

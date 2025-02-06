@@ -186,12 +186,45 @@ string[] words = ["one", "two", "three", "four"];
 //    Console.WriteLine(words[i] );
 //}
 
-foreach( string word in words)
+foreach (string word in words)
 {
     Console.WriteLine(word);
 }
 
 
+// LISTS
+
+List<string> words2 = new List<string>();
+
+Console.WriteLine($"the count of elements in words2 list is: {words2.Count}");
+words2.Add("one"); // use .Add to add items to the list
+Console.WriteLine($"the count of elements in words2 list is: {words2.Count}");
+
+//List<string> words3 = new List<string> {
+//    "lol", "banana"
+//};
+
+var words3 = new List<string> {
+    "lol", "banana"
+};
+
+foreach (string word in words3)
+{
+    Console.WriteLine(word);
+}
+
+Console.WriteLine("removing an item from words3");
+words3.Remove("lol");
+//words3.Add("strawberry");
+//words3.Add("blueberry");
+//words3.Add("watermelon");
+words3.AddRange(["strawberry", "blueberry", "watermelon"]);
+Console.WriteLine($"Index of element 'strawberry' is: {words3.IndexOf("strawberry")}");
+Console.WriteLine($"Index of element 'kiwi' is: {words3.IndexOf("kiwi")}"); // -1
+Console.WriteLine($"Contains 'blueberry'? {words3.Contains("blueberry")}"); // True
+Console.WriteLine($"Contains 'kiwi'? {words3.Contains("kiwi")}"); // False
 
 
-    Console.ReadKey();
+words3.RemoveAt(0); // Remove item at position 0
+
+Console.ReadKey();

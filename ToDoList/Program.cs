@@ -227,4 +227,39 @@ Console.WriteLine($"Contains 'kiwi'? {words3.Contains("kiwi")}"); // False
 
 words3.RemoveAt(0); // Remove item at position 0
 
+
+
+// OUT KEYWORD
+
+var numbers2 = new[] { 10, -8, 6, 9, -2 };
+int countOfNegatives;
+var onlyPositive = GetOnlyPositive(numbers2, out countOfNegatives);
+//var onlyPositive = GetOnlyPositive(numbers2); // ERROR!
+foreach (var number in onlyPositive)
+{
+    Console.WriteLine(number);
+}
+Console.WriteLine($"Count of negative numbers: {countOfNegatives}");
+
+
+// Lets define a method that takes a list of integers and returns the positive numbers in a list AND also the amount of negative number in the list we passed as an argument
+List<int> GetOnlyPositive(int[] numbers, out int negativeCount)
+{
+    var result = new List<int>();
+    negativeCount = 0;
+
+    foreach (int number in numbers)
+    {
+        if (number > 0)
+        {
+            result.Add(number);
+        }
+        else if (number < 0)
+        {
+            negativeCount++;
+        }
+    }
+    return result;
+}
+
 Console.ReadKey();

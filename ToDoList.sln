@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{791A2DDF-E792-4232-B8B5-4CAA2553A0CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concepts", "ToDoList\Concepts.csproj", "{791A2DDF-E792-4232-B8B5-4CAA2553A0CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{80D34477-6856-4BB6-BEBC-DB7B92196E44}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsAnyWordLongerThan", "IsAnyWordLongerThan\IsAnyWordLongerThan.csproj", "{27EDA940-72FA-436C-A773-148728CE3789}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetOnlyUpperCaseWords", "GetOnlyUpperCaseWords\GetOnlyUpperCaseWords.csproj", "{BFF5F5BB-31D2-449D-B863-9D2804DE2511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO_List", "TODO_List\TODO_List.csproj", "{C06EEB6C-ABE0-4C27-9A28-79423C42A2C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{BFF5F5BB-31D2-449D-B863-9D2804DE2511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFF5F5BB-31D2-449D-B863-9D2804DE2511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFF5F5BB-31D2-449D-B863-9D2804DE2511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06EEB6C-ABE0-4C27-9A28-79423C42A2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06EEB6C-ABE0-4C27-9A28-79423C42A2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06EEB6C-ABE0-4C27-9A28-79423C42A2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06EEB6C-ABE0-4C27-9A28-79423C42A2C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
